@@ -1,0 +1,14 @@
+commute_25gte
+commute_25lt
+households
+households_cohabiting
+households_unmaried
+housing_occupied
+housing_owned
+housing_rented_college
+manufacturing_ocupations
+population_18lt
+seniors
+tertiary
+primary
+total_population
