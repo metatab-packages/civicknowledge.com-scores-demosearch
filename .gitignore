@@ -10,4 +10,4 @@ _packages
 .DS_Store
 __pycache__/
 
-data/ring_scores.csv
+data/rings_scores.csv
