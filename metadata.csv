@@ -14,7 +14,7 @@ Version.Major,1
 Version.Minor,1
 Version.Patch,1
 Created,2021-06-07T17:12:36
-Modified,2021-06-07T20:46:35
+Modified,2021-06-07T22:57:37
 Giturl,https://github.com/metatab-packages/civicknowledge.com-scores-demosearch.git
 ""
 Section,Contacts,Email,Organization,Url
@@ -25,8 +25,15 @@ Documentation,file:README.md,README,,
 ""
 Section,References,Name,Description,
 Reference,index:civicknowledge.com-scorepoints-demosearch#business_points,scorepoints,500K Business points,
-Datafile,data/scores.csv,rings_scores,"Sample scores, weighted sum and rings",
+Reference,data/rings_scores.csv,rings_scores,"Sample scores, weighted sum and rings",
 ""
 Section,Resources,Name,Description,
+Datafile,notebooks/build.ipynb#scores,scores,Sampled scores.,
 ""
-Section,Schema,DataType,AltName,Description
+Section,Schema,DataType,AltName,Description,Has_Codes
+Table,scores,,,,
+Table.Column,idx,integer,,,
+Table.Column,geoid,string,,,
+Table.Column,geometry,string,,,
+Table.Column,tracts/pop/poverty,number,tracts_pop_poverty,,
+Table.Column,tracts/pop/seniors,number,tracts_pop_seniors,,
