@@ -1,7 +1,7 @@
 # Task definitions for invoke
 # You must first install invoke, https://www.pyinvoke.org/
 
-import fiona # Avoids a bizzare error: AttributeError: module 'fiona' has no attribute '_loading'
+
 import sys
 from pathlib import Path
 import metapack as mp

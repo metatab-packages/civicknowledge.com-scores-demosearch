@@ -12,3 +12,14 @@ seniors
 tertiary
 primary
 total_population
+casual
+bar
+playpark
+active
+travel
+entertain
+amenity
+cafe
+food
+shop
+restaurant

@@ -12,7 +12,7 @@ Variant,demosearch
 Version,1.1.1
 Version.Major,1
 Version.Minor,1
-Version.Patch,1
+Version.Patch,3
 Created,2021-06-07T17:12:36
 Modified,2021-06-07T22:57:37
 Giturl,https://github.com/metatab-packages/civicknowledge.com-scores-demosearch.git
@@ -31,9 +31,3 @@ Section,Resources,Name,Description,
 Datafile,notebooks/build.ipynb#scores,scores,Sampled scores.,
 
 Section,Schema,DataType,AltName,Description,Has_Codes
-Table,scores,,,,
-Table.Column,idx,integer,,,
-Table.Column,geoid,string,,,
-Table.Column,geometry,string,,,
-Table.Column,tracts/pop/poverty,number,tracts_pop_poverty,,
-Table.Column,tracts/pop/seniors,number,tracts_pop_seniors,,
