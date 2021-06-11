@@ -2,32 +2,32 @@ Declare,metatab-latest
 Title,Demosearch Score Sample
 Description,A sample of scores for businesses across the US for the Demosearch application.
 Identifier,08be575b-b7c9-4071-b668-0d200fc4ff56
-Name,civicknowledge.com-scores-demosearch-1.1.1
+Name,civicknowledge.com-scores-demosearch-1.1.4
 Dataset,scores
 Origin,civicknowledge.com
 Time,
 Space,
 Grain,
 Variant,demosearch
-Version,1.1.1
+Version,1.1.4
 Version.Major,1
 Version.Minor,1
-Version.Patch,3
+Version.Patch,4
 Created,2021-06-07T17:12:36
-Modified,2021-06-07T22:57:37
+Modified,2021-06-11T17:01:29
 Giturl,https://github.com/metatab-packages/civicknowledge.com-scores-demosearch.git
-
+""
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
-
+""
 Section,Documentation,Title,Description,
 Documentation,file:README.md,README,,
-
+""
 Section,References,Name,Description,
 Reference,metapack+http://radius.civicknowledge.com.s3.amazonaws.com/civicknowledge.com-scorepoints-demosearch.csv#business_points,scorepoints,500K Business points,
 Reference,data/rings_scores.csv,rings_scores,"Sample scores, weighted sum and rings",
-
+""
 Section,Resources,Name,Description,
 Datafile,notebooks/build.ipynb#scores,scores,Sampled scores.,
-
+""
 Section,Schema,DataType,AltName,Description,Has_Codes
