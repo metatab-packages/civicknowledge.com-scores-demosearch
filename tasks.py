@@ -26,7 +26,7 @@ def cache_scores(c):
     
     df_url = pkg.reference('scorepoints').url
     
-    c.run(f"ds_batchscore --exceptions -s -v -L layers.txt {df_url}")
+    c.run(f"ds_batchscore --exceptions -s -v -f layers.txt {df_url}")
     
 
 ns.add_task(cache_scores)
