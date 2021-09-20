@@ -40,7 +40,7 @@ def compile_scores(c):
     
     df_url = pkg.reference('scorepoints').url
     
-    c.run(f"ds_batchscore --exceptions -v -i -o data/rings_scores.csv {df_url}")
+    c.run(f"ds_batchscore --exceptions -v  -o data/rings_scores.csv {df_url}")
   
 ns.add_task(compile_scores)
 
