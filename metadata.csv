@@ -2,19 +2,19 @@ Declare,metatab-latest
 Title,Demosearch Score Sample
 Description,A sample of scores for businesses across the US for the Demosearch application.
 Identifier,08be575b-b7c9-4071-b668-0d200fc4ff56
-Name,civicknowledge.com-scores-demosearch-1.1.4
+Name,civicknowledge.com-scores-demosearch-2.1.1
 Dataset,scores
 Origin,civicknowledge.com
 Time,
 Space,
 Grain,
 Variant,demosearch
-Version,1.1.4
-Version.Major,1
+Version,2.1.1
+Version.Major,2
 Version.Minor,1
-Version.Patch,4
+Version.Patch,1
 Created,2021-06-07T17:12:36
-Modified,2021-06-11T17:01:29
+Modified,2021-09-29T02:29:08
 Giturl,https://github.com/metatab-packages/civicknowledge.com-scores-demosearch.git
 ""
 Section,Contacts,Email,Organization,Url
@@ -31,3 +31,17 @@ Section,Resources,Name,Description,
 Datafile,notebooks/build.ipynb#scores,scores,Sampled scores.,
 ""
 Section,Schema,DataType,AltName,Description,Has_Codes
+Table,scores,,,,
+Table.Column,idx,integer,,,
+Table.Column,geoid,string,,,
+Table.Column,geometry,string,,,
+Table.Column,layer,string,,,
+Table.Column,w_r_inv,number,,,
+Table.Column,w_r2_inv,number,,,
+Table.Column,w_r3_inv,number,,,
+Table.Column,w_circle4,integer,,,
+Table.Column,w_lin_200,number,,,
+Table.Column,w_lin_800,number,,,
+Table.Column,w_lin_2000,number,,,
+Table.Column,w_half,number,,,
+Table.Column,w_zero,number,,,
